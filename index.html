@@ -1,0 +1,400 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+  <title>Resto Sagara Ikan</title>
+  <link rel="stylesheet" href="./style.css"/>
+  <meta name="description" content="Sagara Ikan — restoran seafood dengan pilihan ikan segar: tuna, sarden, salmon, dan mackerel. Rasa premium, harga bersahabat."/>
+  <link rel="icon" href="logo.png" type="image/png"/>
+</head>
+<body>
+  <!-- Navigasi -->
+  <div class="menu">
+    <nav>
+      <input type="checkbox" id="check"/>
+      <label for="check" class="checkbtn">
+        <ion-icon name="grid-outline"></ion-icon>
+      </label>
+
+      <a href="#hero-section" class="brand">
+        <img src="logo.png" alt="Sagara Ikan" class="logo"/>
+      </a>
+
+      <ul>
+        <li><a href="#hero-section" class="active">Beranda</a></li>
+        <li><a href="#about">Tentang</a></li>
+        <li><a href="#menu">Menu</a></li>
+        <li><a href="#testimonial">Ulasan</a></li>
+        <li><a href="#app">Aplikasi</a></li>
+        <li><a href="#contact">Kontak</a></li>
+      </ul>
+    </nav>
+  </div>
+
+  <!-- Hero -->
+  <section class="section flex" id="hero-section">
+    <div class="text">
+      <h1 class="primary">
+        Selamat Datang di <span>Resto Sagara Ikan</span>
+      </h1>
+      <p class="tertiary">
+        Nikmati hidangan laut berkualitas premium dari ikan pilihan: tuna, sarden,
+        salmon, hingga mackerel. Dimasak dengan teknik terbaik, disajikan hangat,
+        siap memanjakan lidah Anda.
+      </p>
+      <a href="#menu" class="btn">Jelajahi Menu</a>
+    </div>
+    <div class="visual">
+      <img src="all1.png" alt="Hidangan seafood Sagara Ikan"/>
+    </div>
+  </section>
+
+  <main class="section" id="main-info" aria-label="Informasi Utama">
+    <div class="container flex main-split">
+      <section class="main-welcome" aria-labelledby="welcome-title">
+        <h2 id="welcome-title" class="secondary">Tawaran Spesial!</h2>
+        <p class="tertiary">
+          Di Sagara Ikan, kami menyajikan cita rasa laut yang elegan. Hidangan kami
+          diracik dari ikan segar pilihan dengan teknik masak presisi renyah di luar,
+          juicy di dalam. Nikmati pengalaman makan yang hangat, bersih, dan berkelas.
+        </p>
+        <a href="#about" class="btn">Kenal Lebih Dekat</a>
+      </section>
+
+      <aside class="main-specials" aria-labelledby="specials-title">
+        <h3 id="specials-title" class="secondary small-title">Spesial Hari Ini</h3>
+        <ul class="specials-list">
+          <li>
+            <span>Salmon Butter Lemon</span>
+            <span class="badge">Rp110.000</span>
+          </li>
+          <li>
+            <span>Tuna Oseng</span>
+            <span class="badge">Rp80.000</span>
+          </li>
+          <li>
+            <span>Mackerel Telur Asin</span>
+            <span class="badge">Rp89.000</span>
+          </li>
+          <li>
+            <span>Es Teh Anget</span>
+            <span class="badge">Gratis</span>
+          </li>
+        </ul>
+        <p class="note">* Tersedia sepanjang hari atau selama persediaan masih ada.</p>
+      </aside>
+    </div>
+  </main>
+
+  <section class="section" id="how-it-works">
+    <h2 class="secondary">Kenapa Sagara Ikan?</h2>
+    <div class="container flex">
+      <div class="box">
+        <h3>Pesan Praktis</h3>
+        <ion-icon name="timer-outline"></ion-icon>
+        <p>Pilih menu favorit dan pesan tanpa ribet. Makan enak jadi lebih mudah.</p>
+      </div>
+
+      <div class="box active">
+        <h3>Kualitas Juara</h3>
+        <ion-icon name="trophy-outline"></ion-icon>
+        <p>Ikan segar, bumbu terbaik, dan standar dapur yang higienis setiap saat.</p>
+      </div>
+
+      <div class="box">
+        <h3>Antar Cepat</h3>
+        <ion-icon name="checkmark-done-circle-outline"></ion-icon>
+        <p>Hidangan sampai dengan cepat—tetap hangat, rasa tetap maksimal.</p>
+      </div>
+    </div>
+  </section>
+
+  <section class="section" id="about">
+    <div class="container flex">
+      <div class="visual">
+        <img src="4.png" alt="Dapur Sagara Ikan"/>
+      </div>
+      <div class="text">
+        <div class="secondary">Tentang Restoran Kami</div>
+        <h2 class="primary">Ikan fresh</h2>
+        <h3 class="tertiary">Cita rasa laut yang elegan</h3>
+        <p>
+          Sagara Ikan menghadirkan sensasi kuliner laut yang berkelas.
+          Dari pemilihan bahan baku hingga ke piring Anda, setiap detail
+          kami jaga agar Anda merasakan rasa terbaik renyah di luar, juicy di dalam.
+        </p>
+        <a href="#menu" class="btn">Lihat Menu</a>
+      </div>
+    </div>
+  </section>
+
+  <section class="section" id="menu">
+    <div class="container">
+      <ul class="category">
+        <li class="active">Semua</li>
+        <li>Tuna</li>
+        <li>Sarden</li>
+        <li>Salmon</li>
+        <li>Mackerel</li>
+      </ul>
+
+      <div class="container">
+        <div class="restaurant-menu">
+          <!-- Tuna -->
+          <div class="menu-item">
+            <img src="tuna.png" alt="Tuna Oseng"/>
+            <div class="title">Tuna Oseng</div>
+            <div class="order flex">
+              <div class="price">Rp89.000</div>
+              <a href="#" class="btn btn-menu">Pesan Sekarang</a>
+            </div>
+          </div>
+
+          <!-- Sarden -->
+          <div class="menu-item">
+            <img src="sarden.png" alt="Sarden Samyang Gochujang"/>
+            <div class="title">Sarden Samyang Gochujang</div>
+            <div class="order flex">
+              <div class="price">Rp56.000</div>
+              <a href="#" class="btn btn-menu">Pesan Sekarang</a>
+            </div>
+          </div>
+
+          <!-- Salmon -->
+          <div class="menu-item">
+            <img src="salmon.png" alt="Salmon Butter Lemon"/>
+            <div class="title">Salmon Butter Lemon</div>
+            <div class="order flex">
+              <div class="price">Rp119.000</div>
+              <a href="#" class="btn btn-menu">Pesan Sekarang</a>
+            </div>
+          </div>
+
+          <!-- Mackerel -->
+          <div class="menu-item">
+            <img src="mackerel1.png" alt="Mackerel Telur Asin"/>
+            <div class="title">Mackerel Telur Asin</div>
+            <div class="order flex">
+              <div class="price">Rp99.000</div>
+              <a href="#" class="btn btn-menu">Pesan Sekarang</a>
+            </div>
+          </div>
+
+          <!--Paketan-->
+          <div class="menu-item">
+            <img src="22.png" alt="Paket Mackerel + Sarden"/>
+            <div class="title">Paket Mackerel + Sarden</div>
+            <div class="order flex">
+              <div class="price">Rp160.000</div>
+              <a href="#" class="btn btn-menu">Pesan Sekarang</a>
+            </div>
+          </div>
+
+          <div class="menu-item">
+            <img src="3.png" alt="Paket Salmon + Mackerel + Tuna"/>
+            <div class="title">Paket Salmon + Mackerel + Tuna</div>
+            <div class="order flex">
+              <div class="price">Rp300.000</div>
+              <a href="#" class="btn btn-menu">Pesan Sekarang</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="section" id="testimonial">
+    <div class="container flex">
+      <div class="text">
+        <h2 class="secondary">Apa kata mereka tentang kami?</h2>
+        <p>
+          “Ikannya segar banget, bumbunya meresap, dan porsinya pas.
+          Tempat yang wajib dikunjungi buat pecinta ikan!”
+        </p>
+        <div class="user flex">
+          <img src="client.jpeg" alt="Pelanggan Sagara Ikan"/>
+          <div class="name">
+            <div class="title">Mamat</div>
+            <div class="location">Planet Bekasi</div>
+          </div>
+        </div>
+      </div>
+      <div class="visual">
+        <img src="review.png" alt="Suasana makan di Sagara Ikan"/>
+      </div>
+    </div>
+  </section>
+
+  <section class="section" id="faq">
+    <h2 class="secondary">Pertanyaan yang Sering Diajukan</h2>
+    <div class="faq">
+      <details>
+        <summary>Apakah ikan yang digunakan selalu segar?</summary>
+        <div class="content"><p>Ya. Kami bekerja sama dengan pemasok tepercaya dan hanya menyajikan ikan segar berkualitas.</p></div>
+      </details>
+
+      <details>
+        <summary>Apakah tersedia layanan antar?</summary>
+        <div class="content"><p>Tersedia! Kami melayani pengantaran ke area tertentu dengan estimasi sampai cepat.</p></div>
+      </details>
+
+      <details>
+        <summary>Apakah bisa request tingkat kepedasan?</summary>
+        <div class="content"><p>Bisa. Silakan tulis catatan saat memesan—chef kami akan menyesuaikan.</p></div>
+      </details>
+
+      <details>
+        <summary>Apakah ada pilihan menu untuk anak?</summary>
+        <div class="content"><p>Ada. Kami punya pilihan rasa mild dengan porsi ramah anak.</p></div>
+      </details>
+    </div>
+  </section>
+
+  <section class="section" id="app">
+    <div class="container flex">
+      <div class="visual">
+        <img src="mockup app sagara ikan.png" alt="Aplikasi Sagara Ikan"/>
+      </div>
+      <div class="text">
+        <h2 class="secondary">Unduh Aplikasi Sagara Ikan</h2>
+        <p>
+          Pesan lebih cepat, simpan favorit, dan nikmati promo eksklusif hanya di aplikasi.
+        </p>
+        <div class="download flex">
+          <div class="app-store">
+            <ion-icon name="logo-google-playstore"></ion-icon>
+            <p>TERSEDIA DI <br/><span>Google Play</span></p>
+          </div>
+          <div class="app-store">
+            <ion-icon name="logo-apple"></ion-icon>
+            <p>UNDUH DI <br/><span>App Store</span></p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="section" id="contact" aria-label="Kontak Sagara Ikan">
+    <div class="container flex contact">
+      <div class="contact-card">
+        <h2 class="secondary">Hubungi Kami</h2>
+        <p class="tertiary">Ada pertanyaan, reservasi, atau butuh bantuan? Kirim pesan lewat formulir di bawah.</p>
+
+        <form class="contact-form" action="#" method="post" onsubmit="return false;">
+          <div class="input-group">
+            <label for="nama">Nama</label>
+            <input type="text" id="nama" name="nama" placeholder="Nama lengkap" required/>
+          </div>
+
+          <div class="input-row">
+            <div class="input-group">
+              <label for="email">Email</label>
+              <input type="email" id="email" name="email" placeholder="nama@email.com" required/>
+            </div>
+            <div class="input-group">
+              <label for="telepon">Telepon</label>
+              <input type="tel" id="telepon" name="telepon" placeholder="08xxxxxxxxxx"/>
+            </div>
+          </div>
+
+          <div class="input-group">
+            <label for="pesan">Pesan</label>
+            <textarea id="pesan" name="pesan" rows="5" placeholder="Tulis pesan kamu di sini..." required></textarea>
+          </div>
+
+          <button type="submit" class="btn">Kirim Pesan</button>
+        </form>
+      </div>
+
+      <div class="contact-info">
+        <div class="info-line">
+          <ion-icon name="location-outline"></ion-icon>
+          <div>
+            <strong>Alamat</strong>
+            <p>Jl. Samudera No. 16, Alaska</p>
+          </div>
+        </div>
+        <div class="info-line">
+          <ion-icon name="call-outline"></ion-icon>
+          <div>
+            <strong>Telepon</strong>
+            <p>+62 851-8773-2004</p>
+          </div>
+        </div>
+        <div class="info-line">
+          <ion-icon name="time-outline"></ion-icon>
+          <div>
+            <strong>Jam Operasional</strong>
+            <p>Senin–Sabtu, 10.00–22.00 WIB</p>
+          </div>
+        </div>
+
+        <img src="lokasi.png" class="map" alt="Peta lokasi Sagara Ikan"/>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="container flex">
+      <div class="footer-about">
+        <h2>Tentang</h2>
+        <p>
+          Sagara Ikan adalah destinasi seafood dengan sentuhan elegan.
+          Kami meramu rasa laut menjadi pengalaman makan yang hangat dan berkesan.
+        </p>
+        <div class="footer-socials">
+          <a href="https://instagram.com/msync.tech/" aria-label="Instagram"><ion-icon name="logo-instagram"></ion-icon></a>
+          <a href="https://wa.me/6285187732004" aria-label="WhatsApp"><ion-icon name="logo-whatsapp"></ion-icon></a>
+          <a href="https://x.com/msyncq" aria-label="X"><ion-icon name="logo-x"></ion-icon></a>
+          <a href="https://orbix.msync.my.id" aria-label="Orbix"><ion-icon name="cafe-outline"></ion-icon></a>
+        </div>
+      </div>
+
+      <div class="footer-category">
+        <h2>Menu Kami</h2>
+        <ul>
+          <li>Ikan Tuna</li>
+          <li>Ikan Sarden</li>
+          <li>Ikan Salmon</li>
+          <li>Ikan Mackerel</li>
+        </ul>
+      </div>
+
+      <div class="quick-links">
+        <h2>Tautan Cepat</h2>
+        <ul>
+          <li>Tentang Kami</li>
+          <li>Kontak</li>
+          <li>Menu</li>
+          <li>Pemesanan</li>
+          <li>Layanan</li>
+        </ul>
+      </div>
+
+      <div class="get-in-touch">
+        <h2>Hubungi Kami</h2>
+        <ul>
+          <li>WhatsApp</li>
+          <li>Pusat Bantuan</li>
+          <li>Kritik & Saran</li>
+          <li>Karier</li>
+        </ul>
+      </div>
+    </div>
+
+    <div class="copyright">
+      <p>&copy; 2025 Sagara Ikan - Malika Shakila</p>
+      <ul class="legal-nav">
+        <li><a href="#privacy">Kebijakan Privasi</a></li>
+        <li><a href="#terms">Syarat & Ketentuan</a></li>
+      </ul>
+    </div>
+  </footer>
+
+  <script type="module" src="https://cdn.jsdelivr.net/npm/@ionic/core/dist/ionic/ionic.esm.js"></script>
+  <script nomodule src="https://cdn.jsdelivr.net/npm/@ionic/core/dist/ionic/ionic.js"></script>
+</body>
+</html>
