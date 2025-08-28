@@ -5,12 +5,18 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
   <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
   <title>Resto Sagara Ikan</title>
+
+  <!-- CSS -->
   <link rel="stylesheet" href="./style.css"/>
+
+  <!-- Meta SEO -->
   <meta name="description" content="Sagara Ikan — restoran seafood dengan pilihan ikan segar: tuna, sarden, salmon, dan mackerel. Rasa premium, harga bersahabat."/>
-  <link rel="icon" href="logo.png" type="image/png"/>
+
+  <!-- Favicon -->
+  <link rel="icon" href="assets/logo.png" type="image/png"/>
 </head>
 <body>
-  <!-- Navigasi -->
+  <!-- ====================== Navigasi ====================== -->
   <div class="menu">
     <nav>
       <input type="checkbox" id="check"/>
@@ -19,7 +25,7 @@
       </label>
 
       <a href="#hero-section" class="brand">
-        <img src="logo.png" alt="Sagara Ikan" class="logo"/>
+        <img src="assets/logo.png" alt="Sagara Ikan" class="logo"/>
       </a>
 
       <ul>
@@ -33,7 +39,7 @@
     </nav>
   </div>
 
-  <!-- Hero -->
+  <!-- ====================== Hero ====================== -->
   <section class="section flex" id="hero-section">
     <div class="text">
       <h1 class="primary">
@@ -47,12 +53,14 @@
       <a href="#menu" class="btn">Jelajahi Menu</a>
     </div>
     <div class="visual">
-      <img src="all1.png" alt="Hidangan seafood Sagara Ikan"/>
+      <img src="assets/all1.png" alt="Hidangan seafood Sagara Ikan"/>
     </div>
   </section>
 
+  <!-- ====================== Informasi Utama ====================== -->
   <main class="section" id="main-info" aria-label="Informasi Utama">
     <div class="container flex main-split">
+      <!-- Welcome -->
       <section class="main-welcome" aria-labelledby="welcome-title">
         <h2 id="welcome-title" class="secondary">Tawaran Spesial!</h2>
         <p class="tertiary">
@@ -63,58 +71,25 @@
         <a href="#about" class="btn">Kenal Lebih Dekat</a>
       </section>
 
+      <!-- Specials -->
       <aside class="main-specials" aria-labelledby="specials-title">
         <h3 id="specials-title" class="secondary small-title">Spesial Hari Ini</h3>
         <ul class="specials-list">
-          <li>
-            <span>Salmon Butter Lemon</span>
-            <span class="badge">Rp110.000</span>
-          </li>
-          <li>
-            <span>Tuna Oseng</span>
-            <span class="badge">Rp80.000</span>
-          </li>
-          <li>
-            <span>Mackerel Telur Asin</span>
-            <span class="badge">Rp89.000</span>
-          </li>
-          <li>
-            <span>Es Teh Anget</span>
-            <span class="badge">Gratis</span>
-          </li>
+          <li><span>Salmon Butter Lemon</span> <span class="badge">Rp110.000</span></li>
+          <li><span>Tuna Oseng</span> <span class="badge">Rp80.000</span></li>
+          <li><span>Mackerel Telur Asin</span> <span class="badge">Rp89.000</span></li>
+          <li><span>Es Teh Anget</span> <span class="badge">Gratis</span></li>
         </ul>
         <p class="note">* Tersedia sepanjang hari atau selama persediaan masih ada.</p>
       </aside>
     </div>
   </main>
 
-  <section class="section" id="how-it-works">
-    <h2 class="secondary">Kenapa Sagara Ikan?</h2>
-    <div class="container flex">
-      <div class="box">
-        <h3>Pesan Praktis</h3>
-        <ion-icon name="timer-outline"></ion-icon>
-        <p>Pilih menu favorit dan pesan tanpa ribet. Makan enak jadi lebih mudah.</p>
-      </div>
-
-      <div class="box active">
-        <h3>Kualitas Juara</h3>
-        <ion-icon name="trophy-outline"></ion-icon>
-        <p>Ikan segar, bumbu terbaik, dan standar dapur yang higienis setiap saat.</p>
-      </div>
-
-      <div class="box">
-        <h3>Antar Cepat</h3>
-        <ion-icon name="checkmark-done-circle-outline"></ion-icon>
-        <p>Hidangan sampai dengan cepat—tetap hangat, rasa tetap maksimal.</p>
-      </div>
-    </div>
-  </section>
-
+  <!-- ====================== About ====================== -->
   <section class="section" id="about">
     <div class="container flex">
       <div class="visual">
-        <img src="4.png" alt="Dapur Sagara Ikan"/>
+        <img src="assets/4.png" alt="Dapur Sagara Ikan"/>
       </div>
       <div class="text">
         <div class="secondary">Tentang Restoran Kami</div>
@@ -130,6 +105,7 @@
     </div>
   </section>
 
+  <!-- ====================== Menu ====================== -->
   <section class="section" id="menu">
     <div class="container">
       <ul class="category">
@@ -144,7 +120,7 @@
         <div class="restaurant-menu">
           <!-- Tuna -->
           <div class="menu-item">
-            <img src="tuna.png" alt="Tuna Oseng"/>
+            <img src="assets/tuna.png" alt="Tuna Oseng"/>
             <div class="title">Tuna Oseng</div>
             <div class="order flex">
               <div class="price">Rp89.000</div>
@@ -154,7 +130,7 @@
 
           <!-- Sarden -->
           <div class="menu-item">
-            <img src="sarden.png" alt="Sarden Samyang Gochujang"/>
+            <img src="assets/sarden.png" alt="Sarden Samyang Gochujang"/>
             <div class="title">Sarden Samyang Gochujang</div>
             <div class="order flex">
               <div class="price">Rp56.000</div>
@@ -164,7 +140,7 @@
 
           <!-- Salmon -->
           <div class="menu-item">
-            <img src="salmon.png" alt="Salmon Butter Lemon"/>
+            <img src="assets/salmon.png" alt="Salmon Butter Lemon"/>
             <div class="title">Salmon Butter Lemon</div>
             <div class="order flex">
               <div class="price">Rp119.000</div>
@@ -174,7 +150,7 @@
 
           <!-- Mackerel -->
           <div class="menu-item">
-            <img src="mackerel1.png" alt="Mackerel Telur Asin"/>
+            <img src="assets/mackerel1.png" alt="Mackerel Telur Asin"/>
             <div class="title">Mackerel Telur Asin</div>
             <div class="order flex">
               <div class="price">Rp99.000</div>
@@ -182,9 +158,9 @@
             </div>
           </div>
 
-          <!--Paketan-->
+          <!-- Paketan -->
           <div class="menu-item">
-            <img src="22.png" alt="Paket Mackerel + Sarden"/>
+            <img src="assets/22.png" alt="Paket Mackerel + Sarden"/>
             <div class="title">Paket Mackerel + Sarden</div>
             <div class="order flex">
               <div class="price">Rp160.000</div>
@@ -193,7 +169,7 @@
           </div>
 
           <div class="menu-item">
-            <img src="3.png" alt="Paket Salmon + Mackerel + Tuna"/>
+            <img src="assets/3.png" alt="Paket Salmon + Mackerel + Tuna"/>
             <div class="title">Paket Salmon + Mackerel + Tuna</div>
             <div class="order flex">
               <div class="price">Rp300.000</div>
@@ -205,6 +181,7 @@
     </div>
   </section>
 
+  <!-- ====================== Testimonial ====================== -->
   <section class="section" id="testimonial">
     <div class="container flex">
       <div class="text">
@@ -214,7 +191,7 @@
           Tempat yang wajib dikunjungi buat pecinta ikan!”
         </p>
         <div class="user flex">
-          <img src="client.jpeg" alt="Pelanggan Sagara Ikan"/>
+          <img src="assets/client.jpeg" alt="Pelanggan Sagara Ikan"/>
           <div class="name">
             <div class="title">Mamat</div>
             <div class="location">Planet Bekasi</div>
@@ -222,40 +199,16 @@
         </div>
       </div>
       <div class="visual">
-        <img src="review.png" alt="Suasana makan di Sagara Ikan"/>
+        <img src="assets/review.png" alt="Suasana makan di Sagara Ikan"/>
       </div>
     </div>
   </section>
 
-  <section class="section" id="faq">
-    <h2 class="secondary">Pertanyaan yang Sering Diajukan</h2>
-    <div class="faq">
-      <details>
-        <summary>Apakah ikan yang digunakan selalu segar?</summary>
-        <div class="content"><p>Ya. Kami bekerja sama dengan pemasok tepercaya dan hanya menyajikan ikan segar berkualitas.</p></div>
-      </details>
-
-      <details>
-        <summary>Apakah tersedia layanan antar?</summary>
-        <div class="content"><p>Tersedia! Kami melayani pengantaran ke area tertentu dengan estimasi sampai cepat.</p></div>
-      </details>
-
-      <details>
-        <summary>Apakah bisa request tingkat kepedasan?</summary>
-        <div class="content"><p>Bisa. Silakan tulis catatan saat memesan—chef kami akan menyesuaikan.</p></div>
-      </details>
-
-      <details>
-        <summary>Apakah ada pilihan menu untuk anak?</summary>
-        <div class="content"><p>Ada. Kami punya pilihan rasa mild dengan porsi ramah anak.</p></div>
-      </details>
-    </div>
-  </section>
-
+  <!-- ====================== App Section ====================== -->
   <section class="section" id="app">
     <div class="container flex">
       <div class="visual">
-        <img src="mockup app sagara ikan.png" alt="Aplikasi Sagara Ikan"/>
+        <img src="assets/mockup app sagara ikan.png" alt="Aplikasi Sagara Ikan"/>
       </div>
       <div class="text">
         <h2 class="secondary">Unduh Aplikasi Sagara Ikan</h2>
@@ -276,6 +229,7 @@
     </div>
   </section>
 
+  <!-- ====================== Kontak ====================== -->
   <section class="section" id="contact" aria-label="Kontak Sagara Ikan">
     <div class="container flex contact">
       <div class="contact-card">
@@ -283,11 +237,13 @@
         <p class="tertiary">Ada pertanyaan, reservasi, atau butuh bantuan? Kirim pesan lewat formulir di bawah.</p>
 
         <form class="contact-form" action="#" method="post" onsubmit="return false;">
+          <!-- Nama -->
           <div class="input-group">
             <label for="nama">Nama</label>
             <input type="text" id="nama" name="nama" placeholder="Nama lengkap" required/>
           </div>
 
+          <!-- Email & Telepon -->
           <div class="input-row">
             <div class="input-group">
               <label for="email">Email</label>
@@ -299,6 +255,7 @@
             </div>
           </div>
 
+          <!-- Pesan -->
           <div class="input-group">
             <label for="pesan">Pesan</label>
             <textarea id="pesan" name="pesan" rows="5" placeholder="Tulis pesan kamu di sini..." required></textarea>
@@ -331,14 +288,15 @@
           </div>
         </div>
 
-        <img src="lokasi.png" class="map" alt="Peta lokasi Sagara Ikan"/>
+        <img src="assets/lokasi.png" class="map" alt="Peta lokasi Sagara Ikan"/>
       </div>
     </div>
   </section>
 
-  <!-- Footer -->
+  <!-- ====================== Footer ====================== -->
   <footer class="footer">
     <div class="container flex">
+      <!-- About -->
       <div class="footer-about">
         <h2>Tentang</h2>
         <p>
@@ -353,6 +311,7 @@
         </div>
       </div>
 
+      <!-- Menu -->
       <div class="footer-category">
         <h2>Menu Kami</h2>
         <ul>
@@ -363,6 +322,7 @@
         </ul>
       </div>
 
+      <!-- Links -->
       <div class="quick-links">
         <h2>Tautan Cepat</h2>
         <ul>
@@ -374,6 +334,7 @@
         </ul>
       </div>
 
+      <!-- Get in Touch -->
       <div class="get-in-touch">
         <h2>Hubungi Kami</h2>
         <ul>
@@ -394,6 +355,7 @@
     </div>
   </footer>
 
+  <!-- ====================== Script ====================== -->
   <script type="module" src="https://cdn.jsdelivr.net/npm/@ionic/core/dist/ionic/ionic.esm.js"></script>
   <script nomodule src="https://cdn.jsdelivr.net/npm/@ionic/core/dist/ionic/ionic.js"></script>
 </body>
